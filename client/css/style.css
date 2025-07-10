@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#boardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.board {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+}

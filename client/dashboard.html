@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - DevTasks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Welcome to DevTasks</h1>
+  <button onclick="logout()">Logout</button>
+
+  <section>
+    <h2>Create Board</h2>
+    <form id="boardForm">
+      <input type="text" id="boardName" placeholder="Board Name" required />
+      <button type="submit">Create</button>
+    </form>
+  </section>
+
+  <section id="boardsContainer"></section>
+
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
